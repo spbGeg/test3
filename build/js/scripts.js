@@ -1,0 +1,1 @@
+$(function(){$(window).scroll(function(){$(this).scrollTop()>1?$(".navbar").addClass("navbar-fixed-top"):$(".navbar").removeClass("navbar-fixed-top")})}),$("#myCarousel").carousel({interval:6e3}),$(".news-slider").slick({slidesToShow:4,slidesToScroll:1,autoplay:!0,autoplaySpeed:3e3,dots:!1,arrows:!0});
